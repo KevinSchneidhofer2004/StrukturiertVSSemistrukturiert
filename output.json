@@ -1,0 +1,34 @@
+[
+    {
+        "Titel": "Die Verwandlung",
+        "Autor": " Franz Kafka",
+        "Veröffentlichungsjahr": " 1915",
+        "Genre": " Roman",
+        "ISBN": "",
+        "Review": ""
+    },
+    {
+        "Titel": "1984",
+        "Autor": " George Orwell",
+        "Veröffentlichungsjahr": " 1949",
+        "Genre": " Dystopie",
+        "ISBN": "",
+        "Review": ""
+    },
+    {
+        "Titel": "To Kill a Mockingbird",
+        "Autor": " Harper Lee",
+        "Veröffentlichungsjahr": " 1960",
+        "Genre": " Roman",
+        "ISBN": "",
+        "Review": ""
+    },
+    {
+        "Titel": "The Catcher in the Rye",
+        "Autor": " J.D. Salinger",
+        "Veröffentlichungsjahr": " 1951",
+        "Genre": " Coming-of-Age",
+        "ISBN": "",
+        "Review": ""
+    }
+]
