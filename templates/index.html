@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Books</title>
+    <style>
+        h1 {
+            margin: 10px;
+        }
+        .book {
+            color: white;
+            border: 3px solid #000000;
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+            width: 250px;
+            transition: background-color 0.5s, color 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Booklist</h1>
+    {% if books %}
+        {% for book in books %}
+            <div class="book" style="background-color: {{ book.color if book.color else '#ffffff' }};">
+                <h2>{{ book.title }}</h2>
+                <p>{{ book.author }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No books available.</p>
+    {% endif %}
+</body>
+</html>

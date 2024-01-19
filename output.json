@@ -30,5 +30,29 @@
         "Genre": " Coming-of-Age",
         "ISBN": "",
         "Review": ""
+    },
+    {
+        "Titel": "Percy Jackson",
+        "Autor": " Rick Riordan",
+        "Veröffentlichungsjahr": " 2005",
+        "Genre": " Fantasy",
+        "ISBN": "",
+        "Review": ""
+    },
+    {
+        "Titel": "Diary of a Wimpy Kid",
+        "Autor": " Jeff Kinney",
+        "Veröffentlichungsjahr": " 2007",
+        "Genre": " Comedy",
+        "ISBN": "",
+        "Review": ""
+    },
+    {
+        "Titel": "Maze Runner",
+        "Autor": " James Dashner",
+        "Veröffentlichungsjahr": " 2009",
+        "Genre": " Fantasy",
+        "ISBN": "",
+        "Review": ""
     }
 ]
