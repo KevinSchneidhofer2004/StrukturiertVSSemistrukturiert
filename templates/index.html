@@ -15,7 +15,9 @@
             padding: 10px;
             margin: 10px;
             width: 250px;
-            transition: background-color 0.5s, color 0.5s;
+        }
+        p {
+            text-align: right;
         }
     </style>
 </head>
@@ -23,13 +25,13 @@
     <h1>Booklist</h1>
     {% if books %}
         {% for book in books %}
-            <div class="book" style="background-color: {{ book.color if book.color else '#ffffff' }};">
+            <div class="book" style="background-color: {{book.color}};">
                 <h2>{{ book.title }}</h2>
                 <p>{{ book.author }}</p>
             </div>
         {% endfor %}
     {% else %}
-        <p>No books available.</p>
+        <p>No books available</p>
     {% endif %}
 </body>
 </html>

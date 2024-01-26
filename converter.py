@@ -15,7 +15,12 @@ class Converter:
 
     def export_json(self):
         for book in self.content:
-            modified_book = {key.strip(): value for key, value in book.items()}
+            modified_book = {}
+
+            for key, value in book.items():
+                stripped_key = key.strip()
+                modified_book[stripped_key] = value
+
             book.clear()
             book.update(modified_book)
 
